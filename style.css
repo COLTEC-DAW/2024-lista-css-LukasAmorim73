@@ -1,0 +1,146 @@
+body {
+    background-color: purple;
+    color: rgb(17, 15, 17);
+    width: 800px;
+    height: 700px;
+    font-family: sans-serif;
+}
+a{
+    color: rgb(0, 128, 0);
+    font-weight: 700;
+}
+h1{
+    color:rgb(5, 56, 5);
+    font-size: 1.8rem;
+    margin-right: 1.2rem;
+    display: inline;
+}
+h2{
+    color:rgb(5, 56, 5);
+    font-size: 1.4rem;
+    text-indent: 1.2rem;
+}
+h3{
+    color:rgb(5, 56, 5);
+    font-size: 1.2rem;
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    margin-bottom: 16px;
+    text-align: center;
+}
+p {
+    background-color: rgb(83, 22, 83);
+    color: yellow;
+    text-indent: 1em;
+}
+footer{
+    margin: 4%;
+}
+footer > a{
+    border-right: 1px;
+    border-style: solid;
+    padding: 0.5em;
+}
+abbr{
+    font-variant: small-caps;
+}
+.summary{
+    text-align: right;
+}
+.main{
+    line-height: 24px;
+}
+.main > p{
+    line-height: 1.5em;
+   
+}
+.main > p:first-of-type::first-letter{
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    float: left;
+}
+.page-wrapper{
+    position: relative;
+    max-width: 1280px;
+    width: 80%;
+    margin: 50px;
+}
+.intro{
+    height: 500px;
+}
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+.design-selection{
+    position: absolute;
+    top: 500px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#design-archives{
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.design-selection li{
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+}
+.benefitis{
+    display: flex;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+.benefits h3{
+    align-self: center;
+    contain: 30%;
+}
+.benefits p {
+    contain: 70%;
+}
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    contain: 50%;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px){
+    .participation{
+        flex-direction: column;
+    }
+    .explanation{
+        border-right: none;
+    }
+    .intro{
+        height: auto;
+    }
+    .design-selection{
+        float: none;
+        position: static;
+    }
+}
+
+@media print{
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        background-color: rgb(201, 119, 201);
+        color: black;
+    }
+}
