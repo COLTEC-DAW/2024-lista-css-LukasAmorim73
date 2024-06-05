@@ -1,7 +1,7 @@
 body {
     background-color: purple;
     color: rgb(17, 15, 17);
-    width: 10000px;
+    width: 800px;
     height: 700px;
     font-family: sans-serif;
 }
@@ -117,4 +117,23 @@ abbr{
     flex-wrap: wrap;
     contain: 50%;
     align-self: center;
+}
+
+@media screen and (max-width: 768px){
+    .explanation{
+        width: 60%;
+        margin-right: 35%;
+        border-right: none;
+        padding-right: 2%;
+    }
+}
+
+@media print{
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header{
+        background-color: rgb(201, 119, 201);
+        color: black;
+    }
 }
