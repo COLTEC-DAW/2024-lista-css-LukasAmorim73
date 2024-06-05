@@ -66,6 +66,7 @@ abbr{
     position: relative;
     max-width: 1280px;
     width: 80%;
+    margin: 50px;
 }
 .intro{
     height: 500px;
@@ -85,4 +86,35 @@ abbr{
 }
 #design-archives{
     display: none;
+    position: absolute;
+    top: 400px;
+    left: 62%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.design-selection li{
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.mainfooter {
+    display: flex;
+    justify-content: space-around;
+}
+.benefitis{
+    display: flex;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+.benefits h3{
+    align-self: center;
+    contain: 30%;
+}
+.benefits p {
+    contain: 70%;
+}
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    contain: 50%;
+    align-self: center;
 }
