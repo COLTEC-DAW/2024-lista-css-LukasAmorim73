@@ -120,11 +120,14 @@ abbr{
 }
 
 @media screen and (max-width: 768px){
+    .participation{
+        display: flex;
+    }
     .explanation{
-        width: 60%;
-        margin-right: 35%;
         border-right: none;
-        padding-right: 2%;
+    }
+    .intro{
+        height: flex;
     }
 }
 
