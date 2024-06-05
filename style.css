@@ -130,7 +130,8 @@ abbr{
         height: auto;
     }
     .design-selection{
-        
+        float: none;
+        position: static;
     }
 }
 
