@@ -121,13 +121,16 @@ abbr{
 
 @media screen and (max-width: 768px){
     .participation{
-        display: flex;
+        flex-direction: column;
     }
     .explanation{
         border-right: none;
     }
     .intro{
-        height: flex;
+        height: auto;
+    }
+    .design-selection{
+        
     }
 }
 
